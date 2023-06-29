@@ -1,17 +1,19 @@
 ## Hackton Zah@Geek 2.0 Juin 2023
 
-- Groupe: **DreamIT**
-- Membres:
-  - Randrianasoloarinavalona Lovanirina
-  - ...
+Groupe: **DreamIT**
 
-⚠️ NB: Veuillez remplir vos noms dans la liste des membres s'il vous plaît
+Membres:
+
+- Randrianasoloarinavalona Lovanirina
+- ...
+
+> ⚠️ NB: Veuillez remplir vos noms dans la liste des membres s'il vous plaît
 
 ### Utilisation basique du répertoire Git
 
 1. Cloner le projet avec la commande : `git clone https://github.com/Ryuka25/hackathon-zah-geek-juin-2023`
 
-⚠️ Peut être besoin d'authentification via Github
+> ⚠️ Peut être besoin d'authentification via Github
 
 2. S'assurer d'obtenir la dernière version du projet avec les commandes suivantes exécutées l'une après l'autre:
 
