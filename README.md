@@ -7,6 +7,7 @@ Membres:
 - Randrianasoloarinavalona Lovanirina
 - tsitana khanie
 - Nancya Naharijaona
+- Finaritra Randriamiandra
 
 > ⚠️ NB: Veuillez remplir vos noms dans la liste des membres s'il vous plaît
 
