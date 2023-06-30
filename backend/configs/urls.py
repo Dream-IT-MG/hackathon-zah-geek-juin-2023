@@ -17,18 +17,28 @@ Including another URLconf
 from django.contrib import admin
 from django.http import JsonResponse
 from django.urls import path
-from ninja import NinjaAPI
+from ninja import Router
+from ninja_jwt.controller import NinjaJWTDefaultController
+from ninja_extra import NinjaExtraAPI
 
 from monitoring.api import router as monitoring_router
+from user_profile.api import router as user_profile_router
+from authentication.api import router as auth_router
 
 
 def index(request):
     return JsonResponse({"message": "Bienvenue!"})
 
 
-api = NinjaAPI()
+router_v1 = Router()
+router_v1.add_router("users/", user_profile_router)
 
+
+api = NinjaExtraAPI()
 api.add_router("monitoring/", monitoring_router)
+api.add_router("auth/", auth_router)
+api.add_router("v1/", router_v1)
+api.register_controllers(NinjaJWTDefaultController)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
