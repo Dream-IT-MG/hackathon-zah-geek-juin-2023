@@ -6,6 +6,7 @@ Membres:
 
 - Randrianasoloarinavalona Lovanirina
 - tsitana khanie
+-Nancya Naharijaona
 
 > ⚠️ NB: Veuillez remplir vos noms dans la liste des membres s'il vous plaît
 
