@@ -10,7 +10,7 @@ import { ListeContenuFormation } from './ListeContenuFormation'
 
 export const PrixTotalFormation = ()=> {
   return (
-    <Card sx={{ maxWidth: 345 }} style={{height : "80%" , marginTop : "6rem" }}>
+    <Card sx={{ maxWidth: 345 }} style={{height : "100%"}}>
       <CardMedia
         sx={{ height: 150 }}
         image={image}
