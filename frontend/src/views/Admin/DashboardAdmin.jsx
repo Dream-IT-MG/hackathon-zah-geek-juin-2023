@@ -18,7 +18,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import UserIcon from '@mui/icons-material/Person2Rounded';
 import LogoutIcon from '@mui/icons-material/Logout';
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import HistoryIcon from '@mui/icons-material/HistoryEdu';
+import ExtensionIcon from '@mui/icons-material/Extension';
 import PeopleIcon from '@mui/icons-material/People';
 import CompanyIcon from '@mui/icons-material/Wallet';
 import { SideBar} from './SideBar';
@@ -32,9 +32,9 @@ import {useState} from "react";
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {'Copyright © NFCM Corporation'}
+      {'Copyright © VISEOFormation'}
       <Link color="inherit" href="/">
-        Akademika
+        
       </Link>{' '}
       {new Date().getFullYear()}  
       {'.'}
@@ -103,9 +103,9 @@ function DashboardContent() {
   };
 
   const sidebarItems = [
-        {id: 1, label: "Blog", icon : <DashboardIcon />},
-        {id: 2, label: "History", icon : <HistoryIcon />},
-        {id: 3, label: "Applicants List", icon : <PeopleIcon />},
+        {id: 1, label: "Main Dashboard", icon : <DashboardIcon />},
+        {id: 2, label: "Module List", icon : <ExtensionIcon />},
+        {id: 3, label: "My collaborators", icon : <PeopleIcon />},
         {id: 4, label: "Companies List", icon : <CompanyIcon />}
     ]
   const toggleDrawer = () => {

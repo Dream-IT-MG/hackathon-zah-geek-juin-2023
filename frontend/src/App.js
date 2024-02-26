@@ -43,6 +43,9 @@ import createCache from "@emotion/cache";
 import routes from "./routes";
 import { ProtectedRoute } from "./ProtectedRoute";
 
+//ROUTES POUR LES PAGES
+
+
 // Soft UI Dashboard React contexts
 import { useSoftUIController, setMiniSidenav, setOpenConfigurator } from "context";
 

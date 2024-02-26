@@ -18,7 +18,7 @@ function Copyright(props) {
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
-        Akademika.com
+        ViseoFormation.com
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -73,7 +73,7 @@ export default function Logins() {
           >
             
             <Typography component="h1" variant="h5" marginTop={10}>
-              Log in
+                Welcome back!!
             </Typography>
             <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
               <TextField
