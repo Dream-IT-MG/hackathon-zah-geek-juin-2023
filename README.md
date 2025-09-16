@@ -5,7 +5,7 @@ Groupe: **DreamIT**
 Membres:
 
 - Randrianasoloarinavalona Lovanirina
-- tsitana khanie
+- Tsitana Khanie
 - Nancya Naharijaona
 - Finaritra Randriamiandra
 
